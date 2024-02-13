@@ -1,0 +1,48 @@
+public class Tarea implements Comparable<Tarea> {
+
+  // ATRIBUTOS
+  private int id;
+  private String descripcion;
+  private int prioridad;
+
+  // Constructor
+  public Tarea(int id, String descripcion, int prioridad) {
+    this.id = id;
+    this.descripcion = descripcion;
+    this.prioridad = prioridad;
+  }
+
+ 
+
+  // COMPRAR PRIORIDAD
+  @Override
+  public int compareTo(Tarea t) {
+    return this.prioridad - t.prioridad;
+  }
+
+ // GETTERS AND SETTERS
+  public int getId() {
+    return id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
+  }
+
+  public String getDescripcion() {
+    return descripcion;
+  }
+
+  public void setDescripcion(String descripcion) {
+    this.descripcion = descripcion;
+  }
+
+  public int getPrioridad() {
+    return prioridad;
+  }
+
+  public void setPrioridad(int prioridad) {
+    this.prioridad = prioridad;
+  }
+
+}
