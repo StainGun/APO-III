@@ -1,0 +1,13 @@
+package expocanina;
+
+/**
+ *
+ * @author Sistemas
+ */
+public class NomDuplicadoException extends Exception {
+    
+    public NomDuplicadoException (){
+        super ("Ya existe un perro con ese nombre, intente denuevo");
+    }
+    
+}
