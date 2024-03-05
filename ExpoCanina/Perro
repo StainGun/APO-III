@@ -1,0 +1,65 @@
+package expocanina;
+
+public class Perro {
+    
+    String Nom;
+    String Raza;
+    String Foto;
+    int Edad;
+    int Top;
+    
+    public Perro(){
+        
+    }
+
+    public Perro(String Nom, String Raza, int Edad, int Top, String foto) {
+        this.Nom = Nom;
+        this.Raza = Raza;
+        this.Edad = Edad;
+        this.Top = Top;
+    }
+
+    public String getFoto() {
+        return Foto;
+    }
+
+    public void setFoto(String Foto) {
+        this.Foto = Foto;
+    }
+    
+    public String getNom() {
+        return Nom;
+    }
+
+    public void setNom(String Nom) {
+        this.Nom = Nom;
+    }
+
+    public String getRaza() {
+        return Raza;
+    }
+
+    public void setRaza(String Raza) {
+        this.Raza = Raza;
+    }
+
+    public int getEdad() {
+        return Edad;
+    }
+
+    public void setEdad(int Edad) {
+        this.Edad = Edad;
+    }
+
+    public int getTop() {
+        return Top;
+    }
+
+    public void setTop(int Top) {
+        this.Top = Top;
+    }
+    
+    
+    
+    
+}
